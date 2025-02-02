@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Meow+Script&display=swap');
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+p {
+    text-align: center;
+    font-size: 28px;
+}
+a{
+    text-decoration: none;
+    color: rgb(63, 16, 16);
+}
+button{
+    background-color: #DEDEEA;
+    font-family: "Meow Script", cursive;
+}
+.button_katalog{
+    background-color: #61678B;
+    width: 1392px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#myself{
+    background-color: #61678B;
+    width: 952px;
+    height: 252px;
+    position: absolute;
+    left: 221px;
+    top: 142px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#price{
+    background-color: #8488B5;
+    width: 952px;
+    height: 252px;
+    position: absolute;
+    left: 220px;
+    top: 493px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#work{
+    background-color: #BCB9D8;
+    width: 952px;
+    height: 252px;
+    position: absolute;
+    left: 221px;
+    top: 843px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b_work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#study{
+    background-color: #78ACC1;
+    width: 952px;
+    height: 252px;
+    position: absolute;
+    left: 220px;
+    top: 1193px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b_study{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#comment{
+    background-color: #98BFD0;
+    width: 952px;
+    height: 252px;
+    position: absolute;
+    left: 220px;
+    top: 1544px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.b_comment{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;}
+.b_text{
+    font-size: 24px;
+}
+.js_price, .p_price, .Reviewer_text1, .Reviewer_text2, .Reviewer_text3, .p_work, .js_work{
+    display: none;
+    font-size: 26px;
+}
+body{
+    background-color: #DEDEEA;
+    font-family: "Meow Script", cursive;
+}
+.b_myself{
+    width: 239px;
+    height: 41px;
+}
+.b_katalog1{
+    width: 107px;
+    height: 40px;}
+.b_katalog2{
+    width: 107px;
+    height: 40px;}
+.b_katalog3{
+    width: 107px;
+    height: 40px;}
+.b_katalog4{
+    width: 107px;
+    height: 40px;}
+.b_katalog5{
+    width: 107px;
+    height: 40px;}
+.b_price1{
+    width: 131px;
+    height: 85px;}
+.b_price2{
+    width: 131px;
+    height: 85px;}   
+.b_work1{
+    width: 263px;
+    height: 132px;}
+.b_work2{
+    width: 263px;
+    height: 132px;}   
+.b_study1{
+    width: 263px;
+    height: 132px;}
+.b_study2{
+    width: 263px;
+    height: 132px;}
+.b_comment1{
+    width: 263px;
+    height: 132px;}
+.b_comment2{
+    width: 263px;
+    height: 132px;}
+.b_comment3{
+    width: 263px;
+    height: 132px;}
+    .star13{
+        position: absolute;
+        top: 143px;
+        left: 130px;
+        width: 48px;
+    }
+    .star4{
+        position: absolute;
+        top: 314px;
+        left: 58px;
+        width: 41px;
+    }
+    .star10{
+        position: absolute;
+        top: 584px;
+        left: 16px;
+        width: 97px;
+    }
+    .star2{
+        position: absolute;
+        top: 793px;
+        left: 124px;
+        width: 61px;
+    }
+    .star1{
+        position: absolute;
+        top: 1121px;
+        left: 28px;
+        width: 72px;
+    }
+    .star11{
+        position: absolute;
+        top: 1518px;
+        left: 61px;
+        width: 72px;
+    }
+    .star3{
+        position: absolute;
+        top: 1716px;
+        left: 78px;
+        width: 52px;
+    }
+    .star8{
+        position: absolute;
+        top: 166px;
+        left: 1260px;
+        width: 52px;
+    }
+    .star9{
+        position: absolute;
+        top: 355px;
+        left: 1298px;
+        width: 41px;
+    }
+    .star5{
+        position: absolute;
+        top: 536px;
+        left: 1221px;
+        width: 55px;
+    }
+    .star12{
+        position: absolute;
+        top: 771px;
+        left: 1276px;
+        width: 52px;
+    }
+    .star7{
+        position: absolute;
+        top: 1045px;
+        left: 1199px;
+        width: 61px;
+    }
+    .star6{
+        position: absolute;
+        top: 1445px;
+        left: 1284px;
+        width: 55px;
+    }
+
+    .btn-16 {
+        border: 1px solid black;
+        color: #000;
+      }
+      .btn-16:after {
+        position: absolute;
+        content: "";
+        width: 0;
+        height: 100%;
+        top: 0;
+        left: 0;
+        direction: rtl;
+        z-index: -1;
+        box-shadow:
+         -7px -7px 20px 0px #fff9,
+         -4px -4px 5px 0px #fff9,
+         7px 7px 20px 0px #0002,
+         4px 4px 5px 0px #0001;
+        transition: all 0.3s ease;
+      }
+      .btn-16:hover {
+        color: #000;
+      }
+      .btn-16:hover:after {
+        left: auto;
+        right: 0;
+        width: 100%;
+      }
+      .btn-16:active {
+        top: 2px;
+      }
